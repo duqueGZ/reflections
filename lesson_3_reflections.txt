@@ -1,0 +1,6 @@
+When would you want to use a remote repository rather than keeping all your work local?
+
+It's useful when working in a team in the same project. Each of you can work independently and locally in your own
+computer and local repository and then share your progress with the rest of the team by pushing your changes to
+the remote repository, that all the team share. It's also helpful when you want to share with the community some of
+your projects (either working in a team or only by yourself). And for that, using GitHub makes easy to do it.
