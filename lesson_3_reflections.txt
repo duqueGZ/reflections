@@ -4,3 +4,13 @@ It's useful when working in a team in the same project. Each of you can work ind
 computer and local repository and then share your progress with the rest of the team by pushing your changes to
 the remote repository, that all the team share. It's also helpful when you want to share with the community some of
 your projects (either working in a team or only by yourself). And for that, using GitHub makes easy to do it.
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your
+remote repository?
+
+Because this way you can keep the independency between your local repository and the remote as long as you want. You
+can pull a branch from the remote. Then, you can work on it without being worried about the changes that other
+collaborators could push to the remote. And if in one certain moment you need to bring that other changes to your local
+copy (or push your own changes and share them with everybody), you can choose that moment. And it will be then when you
+could need to deal with possible conflicts (and not at any time, as it would happens if you keep your local repository
+always updated with regard of the remote).
