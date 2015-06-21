@@ -1,0 +1,15 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+When you initialize a git repository, git creates all the data structured that it needs in order to track all the
+changes and related info about the files in the repository. It is necessary to do this, because is the way that
+you let git know that that directory would be a repository (so, it must to track it) and not an ordinary file
+directory.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+The working directory is the normal file directory in your file system. It can contains files that you want to keep
+tracked on the repository and other files that you want the repository to ignore them. Meanwhile, the repository is
+where git keep the files actually tracked. When you commit some changes, they go to the repository. Furthermore, the
+staging area is like a halfway place where you can add each changed file that you would want to include in your next
+commit to the repository. That's allow you not to include always all the changed files in your commit, but choose only
+those files that you want to keep logically together in the same change commit.
