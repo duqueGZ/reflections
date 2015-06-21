@@ -13,3 +13,10 @@ where git keep the files actually tracked. When you commit some changes, they go
 staging area is like a halfway place where you can add each changed file that you would want to include in your next
 commit to the repository. That's allow you not to include always all the changed files in your commit, but choose only
 those files that you want to keep logically together in the same change commit.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+You choose what changed files you include in the staging area before a commit. Then, using "git diff --staged" you can
+actually know what changes are going to be commited, because this command compares the staging area with the most
+recent commit in the repository (and that is what is going to be commited). If the changes returned by this command
+contain a unique logical change, you are right and sure that you are going to make one commit per logical change.
