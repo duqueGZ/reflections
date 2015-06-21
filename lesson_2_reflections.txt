@@ -30,3 +30,10 @@ changes independently, so when it comes the moment when you must to build a new 
 to include only some of those new features (and postpone the rest of them for a later release). I think that branching
 and merging is one of the most useful features in version control system, and we (my team and me) use them a lot in our
 daily work in our projects.
+
+How do the diagrams help you visualize the branch structure?
+
+They are really helpful, as with them you can see at a glance all the branch structure of your repository. That's is,
+which commits are related with each other (who is the parent of each one), how many different branches do you have (and
+where they were created (or merged to another one), etc. In addition, you can easyly see the reachability of all your
+commits (and notice if there are some of them that are totally unreachable).
