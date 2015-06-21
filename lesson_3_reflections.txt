@@ -14,3 +14,14 @@ collaborators could push to the remote. And if in one certain moment you need to
 copy (or push your own changes and share them with everybody), you can choose that moment. And it will be then when you
 could need to deal with possible conflicts (and not at any time, as it would happens if you keep your local repository
 always updated with regard of the remote).
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+Forks are used to copy a remote from GitHub to your own remote in your own GitHub account. It's useful when you want to
+do some changes in someone else's project but you are not a collaborator for that project (you don't have the owner
+permission for directly push your changes into the original remote). Clones are used for copying a repository from one
+place to another: from GitHub (a remote) to your computer (in order to have your local repository for that remote, so
+you can do your changes locally in your computer and then push them to the remote); or from one local repository in
+your computer to another local repository in another directory of your filesystem. Finally, branches are used for
+creating a new history line inside a repository. This allows you to keep the changes that you make in that new branch
+separate from the original branch.
