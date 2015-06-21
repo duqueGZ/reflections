@@ -20,3 +20,13 @@ You choose what changed files you include in the staging area before a commit. T
 actually know what changes are going to be commited, because this command compares the staging area with the most
 recent commit in the repository (and that is what is going to be commited). If the changes returned by this command
 contain a unique logical change, you are right and sure that you are going to make one commit per logical change.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+They are very useful, as they allows you to introduce changes in your project separately of the "official" version (the
+master branch), try them in that separate place and then, if you decide that, include them in the official version. In
+addition, when working in multiple new features in the some project at the same time, it allows you to make those
+changes independently, so when it comes the moment when you must to build a new release of your system, you can decide
+to include only some of those new features (and postpone the rest of them for a later release). I think that branching
+and merging is one of the most useful features in version control system, and we (my team and me) use them a lot in our
+daily work in our projects.
