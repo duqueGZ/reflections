@@ -25,3 +25,10 @@ you can do your changes locally in your computer and then push them to the remot
 your computer to another local repository in another directory of your filesystem. Finally, branches are used for
 creating a new history line inside a repository. This allows you to keep the changes that you make in that new branch
 separate from the original branch.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+It's very helpful in the moment of pulling changes from the remote. This way, the status on the remote at the moment
+you last update the local copy with regard of the remote is known. So, it's no needed to look before that point in the
+history line. It's only needed to check if after that there are conflictive changes in both places: the remote and the
+local repository.
