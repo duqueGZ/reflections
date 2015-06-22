@@ -32,3 +32,12 @@ It's very helpful in the moment of pulling changes from the remote. This way, th
 you last update the local copy with regard of the remote is known. So, it's no needed to look before that point in the
 history line. It's only needed to check if after that there are conflictive changes in both places: the remote and the
 local repository.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+Collaborating or working in a development team without using a version control system at all is too much harder than 
+using it (and I think that Git and GitHub provide a lot of useful additional features in comparison with other version
+control systems that I am used to, such as SVN and CVS). Without a version control system you could be able to
+collaborate with others for example by sharing your changes in the code project by a "manual" mean (i.e. an email or a
+removable disk) and notifying the rest of the team about your changes by some kind of message (like an email), in order
+to them being able to revise those changes and contribute with their own changes to the project.
