@@ -41,3 +41,15 @@ control systems that I am used to, such as SVN and CVS). Without a version contr
 collaborate with others for example by sharing your changes in the code project by a "manual" mean (i.e. an email or a
 removable disk) and notifying the rest of the team about your changes by some kind of message (like an email), in order
 to them being able to revise those changes and contribute with their own changes to the project.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each
+approach have?
+
+As we have already said, working directly in the master branch is easier than using separate branches. On the other
+hand, using multiple branches gives a better structure to all the changes that are happening in the project at each
+moment, and more flexibility when deciding which changes would be finally included into master (and, for example, in
+the next release) and which change would not. With this in mind, my team and me usually use separate branches in our
+projects because we usually work with many concurrent changes in the code without knowing at the beginning when each of
+them would be included in our "official" version. Even sometimes could happen that we finally discard all the changes
+in a branch. And with multiple branches we can do all of that without affecting our master branch, where our released
+version (that can not fail at all) is hosted.
